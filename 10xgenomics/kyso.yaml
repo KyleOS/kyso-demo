@@ -1,7 +1,8 @@
-type: website
-organization: kyso-examples
-team: life-sciences
-main: index.html
-title: "Adult Mouse Kidney Chromium Nuclei Analysis"
+organization: kyle-oshea
+team: general
+main: 5k_mouse_brain_CNIK_3pv3 - Nuclei isolated from adult C57_Bl6 mouse brain using the Chromium Nuclei Isolation kit, 5k (SC3'v3.1).html
+authors: ["kyle@kyso.io", "francisco@kyso.io"]
+preview: images/preview.png
+title: "A HTML report on Kyso"
 description: "Visualising nuclei isolated from adult mouse kidney using the Chromium Nuclei Isolation kit, plotting out K-means gene expressions."
 tags: ["10xgenomics", "mice", "k-means"]
