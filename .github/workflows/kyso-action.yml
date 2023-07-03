@@ -15,5 +15,5 @@ jobs:
         with:
           node-version: 14
       - run: npm install -g kyso
-      - run: kyso login --kysoInstallUrl https://insitro.kyso.io --provider kyso --username kyle@kyso.io --token ${{secrets.CUSTOMER_TEST}}
+      - run: kyso login --kysoInstallUrl https://insitro.kyso.io --provider kyso --username kyle@kyso.io --token ${{secrets.KYSO_DEV_TOKEN}}
       - run: kyso push
