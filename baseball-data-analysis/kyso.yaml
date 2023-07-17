@@ -1,5 +1,5 @@
-organization: kyso-demo
-team: data analyses
+organization: kyso-demos
+team: data-analyses
 type: website
 main: export/Baseball.html
 title: "Baseball Data Analysis"
