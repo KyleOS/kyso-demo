@@ -1,9 +1,8 @@
 name: Publish to Kyso
 on:
-  pull_request_target:
-    types:
-      - closed
-
+  push:
+    branches:
+      - main
 jobs:
   Push-To-Kyso:
     runs-on: ubuntu-latest
