@@ -5,15 +5,14 @@ on:
       - closed
 
 jobs:
-  Publish-To-Kyso:
-    if_merged:
-      if: github.event.pull_request.merged == true
-      runs-on: ubuntu-latest
+  Push-To-Kyso:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: 18
+      - run: echo ${{secrets.KYSO_TOKEN}}
       - run: npm install -g kyso
       - run: kyso login --kysoInstallUrl https://dev.kyso.io --provider kyso --username kyle@kyso.io --token ${{secrets.KYSO_TOKEN}}
       - run: kyso push
