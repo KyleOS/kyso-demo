@@ -4,4 +4,4 @@ organization: kyso-demos
 team: data-analyses
 title: "PDF Report: Hurdle & Zero Inflated Models, Overdraft Analytics"
 description: "The purpose of this analysis is to understand how overdraft behaviour varies across income levels."
-tags: ["glms", "overdrafts"]
+tags: ["glms", "overdrafts", "tiledb"]
